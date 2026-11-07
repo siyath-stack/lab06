@@ -1,0 +1,55 @@
+/**
+Introduction to Computing: A Net-centric Approach
+
+=== EECS Fall 2024 ===
+Lassonde School of Engineering
+
+=== Description ===
+CSS document for Lab 6.
+You should not need to alter this page!
+**/
+
+body, header {
+    font-family:Arial, sans-serif;
+    text-align: center;
+    color:#212121;
+    background-color:Silver; 
+    padding: 20px;
+  }
+ 
+button {
+    color:white;
+    background-color:blue;
+    font-size:2em;
+}
+  
+input, select {
+    height: 50px;
+    width: 75%;
+    text-align: left;
+    font-size:1.2em;
+    color:Green; 
+    text-decoration:bold;
+    padding-left: 20px;
+}
+
+div#output {
+    border:1px solid SlateGrey;
+    background-color:LightGrey;
+    border-radius:5px;
+    margin: 20px;
+    padding: 20px;
+    min-height: 40%;    
+    line-height: 200%;
+    font-family: Arial, sans-serif;
+    font-size:2em;
+    color:Green; 
+    text-decoration:bold;
+}
+
+.column { 
+    width: 80%;
+    display:inline-block;
+    height:100vh;
+    font-size:1.5em;
+}
